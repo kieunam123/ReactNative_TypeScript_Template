@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "smarttravel",
+    "name": "Smart Travel",
     "slug": "smarttravel",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,13 +18,30 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kieunam123.smarttravel",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Cho phép ứng dụng sử dụng FaceID/TouchID để xác thực đăng nhập",
+        "NSLocationWhenInUseUsageDescription": "Cho phép ứng dụng sử dụng vị trí của bạn",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Cho phép ứng dụng sử dụng vị trí khi sử dụng",
+        "NSLocationAlwaysUsageDescription": "Cho phép ứng dụng sử dụng vị trí của bạn khi chạy nền",
+        "UIBackgroundModes": [
+          "location",
+          "fetch"
+        ]
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/adaptive-icon_FINAL.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "permissions": [
+        "android.permission.FOREGROUND_SERVICE"
+      ],
+      "package": "com.kieunam123.smarttravel",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"

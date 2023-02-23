@@ -1,0 +1,27 @@
+{
+    "presets": ["babel-preset-expo"],
+    "plugins": [
+      [
+        "babel-plugin-root-import", 
+        {
+          "rootPathPrefix": "~",    // Chúng ta cần cho babel biết "~"
+          "rootPathSuffix": "src"   // sẽ được convert thành "src"
+        }
+      ],
+      "react-native-reanimated/plugin"
+    ],
+    "retainLines": true,
+    "env": {
+      "production": {
+        "plugins": [
+          [
+            "babel-plugin-root-import",
+            {
+              "rootPathPrefix": "~",
+              "rootPathSuffix": "src"
+            }
+          ]
+        ]
+      }
+    }
+  }

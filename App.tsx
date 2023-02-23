@@ -7,7 +7,6 @@ import { useFonts } from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
 import { StyleSheet, Text, View,TextInput, Alert} from 'react-native';
 import Loading from './src/containers/Loading';
-import ConfirmGlobal from './src/containers/ConfirmGlobal';
 import InformationModal from './src/containers/InformationModal';
 import * as Updates from 'expo-updates';
 import { isWeb } from './src/helpers/UtilitiesHelper';
@@ -86,7 +85,6 @@ const App = () => {
         <InformationModal />
         <Loading2 isVisible={isLoanding} text='Đang cập nhật. Vui lòng chờ giây lát...'/>
         <Loading />
-        <ConfirmGlobal />
       </Provider>
     </SafeAreaProvider>
   );
