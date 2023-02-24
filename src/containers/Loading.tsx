@@ -6,7 +6,6 @@ import {TextCustom} from '../components/commons';
 import {Colors} from '../configs';
 import {RootState} from '../redux/reducers';
 
-
 const styles = StyleSheet.create({
   backdropModal: {
     backgroundColor: 'rgba(0,0,0,0.5)',
@@ -24,8 +23,6 @@ export interface IProps {
   fontsLoaded?:any;
 
 }
-
-
 
 const Loading = ({fontsLoaded}:IProps) => {
   const {isLoading} = useSelector((state: RootState) => state.global);

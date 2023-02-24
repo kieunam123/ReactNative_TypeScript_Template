@@ -1,5 +1,5 @@
 
-export const API_URL = 'https://swinesouth.japfa.com.vn:62169/';
+export const API_URL = 'https://kieunamapp-9ad44-default-rtdb.asia-southeast1.firebasedatabase.app/data/';
 export const PASSCODE_SECRET_KEY = 'bdb51f41fba865ec';
 
 const AppString = {

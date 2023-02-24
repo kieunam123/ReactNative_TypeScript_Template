@@ -8,7 +8,7 @@ import PassCodeKeyboard from "./PassCodeKeyboard";
 import Accordion from "./Accordion";
 import Dropdown from "./Dropdown";
 import ModalBottom from "./ModalBottom";
-import Search from "./Search";
+// import Search from "./Search";
 import Button from "./Button";
 import DateRow from "./DateRow";
 import NotFound from "./NotFound";
@@ -35,7 +35,7 @@ export {
     Dropdown,
     Dropdown2,
     ModalBottom,
-    Search,
+    // Search,
     Button,
     DateRow,
     NotFound,
